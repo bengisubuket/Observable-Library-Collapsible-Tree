@@ -14,7 +14,8 @@ app.listen(port, () => {
     console.log('Server is up on port ' + port) 
 })
 
-const uri = "mongodb://supportportaluser:Tr0PpuSSP0rta!2o2!@54.155.228.77:27017"
+//paste an uri that you desire
+const uri = "xxx"
 const client = new MongoClient(uri);
 
 async function connectDB() {
