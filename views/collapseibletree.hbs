@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    </head>
+    <body>
+        <h1>Support Portal User Hierarchy in terms of Manager-Employee Relations </h1>
+        <div id="observablehq-chart-54d78508"></div>
+        <p>Credit: <a href="https://observablehq.com/@bengisubuket/collapsible-tree/2">Collapsible Tree by bengisubuket</a></p>
+
+        <script type="module">
+        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+        import define from "https://api.observablehq.com/@bengisubuket/collapsible-tree/2.js?v=3";
+        new Runtime().module(define, name => {
+        if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-54d78508"));
+        });
+        </script>
+    </body>
+</html>
